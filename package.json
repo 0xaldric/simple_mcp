@@ -3,16 +3,20 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "npx tsx build",
-    "start": "node index.js"
+    "build": "echo 1",
+    "start": "npx tsx index.ts"
   },
   "dependencies": {
     "@coinbase/cdp-sdk": "1.38.4",
     "@modelcontextprotocol/sdk": "^1.20.2",
     "dotenv": "17.2.3",
+    "express": "^5.1.0",
+    "npx": "^10.2.2",
+    "tsx": "^4.20.6",
     "zod": "^4.1.12"
   },
   "devDependencies": {
+    "@types/express": "^5.0.5",
     "@types/node": "^20.19.24",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
